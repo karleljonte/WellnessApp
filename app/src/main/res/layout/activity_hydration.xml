@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HydrationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hydration"
+            android:textSize="32sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+
+            android:background="@drawable/shapeb"
+            android:padding="10dp"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:paddingTop="10dp"
+            android:src="@drawable/image13"
+            android:background="@drawable/rounded_image"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/hydrationText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hydration Tips&#10;&#10;1. Drink Water Regularly&#10;Sip water throughout the day, not just when you’re thirsty.&#10;&#10;2. Start Your Day with Water&#10;Drink a glass of water first thing in the morning.&#10;&#10;3. Carry a Water Bottle&#10;Keep a bottle with you to remind yourself to drink.&#10;&#10;4. Eat Water-Rich Foods&#10;Include fruits like watermelon and oranges.&#10;&#10;5. Set Reminders&#10;Use alarms or apps to remind you to drink water.&#10;&#10;6. Drink Before Meals&#10;Have a glass of water before eating.&#10;&#10;7. Limit Sugary Drinks&#10;Avoid sodas and replace them with water.&#10;&#10;8. Hydrate During Exercise&#10;Drink water before, during, and after workouts.&#10;&#10;9. Check Your Urine Color&#10;Light yellow means you are well hydrated.&#10;&#10;10. Stay Consistent&#10;Make hydration a daily habit."
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:padding="16dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

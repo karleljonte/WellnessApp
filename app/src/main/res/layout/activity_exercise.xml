@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExerciseActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exercise"
+            android:textSize="32sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+
+            android:background="@drawable/shapeb"
+            android:padding="10dp"
+            android:textColor="@color/white"/>
+
+        <ImageView
+            android:id="@+id/exerciseImage"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image7"
+            android:background="#EEEEEE"/>
+
+        <TextView
+            android:id="@+id/exerciseTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/exercisesText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Exercises&#10;&#10;1. Push Ups&#10;A bodyweight exercise that strengthens the chest, shoulders, and arms.&#10;&#10;2. Squats&#10;Great for building leg strength and improving balance.&#10;&#10;3. Plank&#10;Helps build core strength and stability.&#10;&#10;4. Jumping Jacks&#10;A full-body cardio exercise for warming up.&#10;&#10;5. Lunges&#10;Targets legs and improves coordination.&#10;&#10;6. Sit Ups&#10;Strengthens abdominal muscles.&#10;&#10;7. Burpees&#10;A high-intensity full-body exercise.&#10;&#10;8. Mountain Climbers&#10;Good for cardio and core strength.&#10;&#10;9. High Knees&#10;Improves endurance and burns calories.&#10;&#10;10. Stretching&#10;Helps improve flexibility and prevent injuries."
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:padding="16dp"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

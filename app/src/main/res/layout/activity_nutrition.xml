@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NutritionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:id="@+id/nutritionImage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image8"
+            android:background="#EEEEEE"/>
+
+        <TextView
+            android:id="@+id/nutritionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nutrition Tips&#10;&#10;1. Eat Fruits and Vegetables&#10;Include a variety of fruits and vegetables in your meals daily.&#10;&#10;2. Stay Hydrated&#10;Drink plenty of water throughout the day.&#10;&#10;3. Balanced Diet&#10;Ensure your meals contain proteins, carbohydrates, and healthy fats.&#10;&#10;4. Reduce Sugar Intake&#10;Limit sugary foods and drinks.&#10;&#10;5. Eat Whole Grains&#10;Choose whole grain foods like brown rice and whole wheat bread.&#10;&#10;6. Include Protein&#10;Eat foods like eggs, beans, fish, and chicken.&#10;&#10;7. Healthy Snacking&#10;Snack on nuts, fruits, or yogurt instead of junk food.&#10;&#10;8. Limit Processed Foods&#10;Avoid highly processed and fast foods.&#10;&#10;9. Portion Control&#10;Avoid overeating by controlling portion sizes.&#10;&#10;10. Regular Meals&#10;Eat meals at consistent times each day."
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:padding="16dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
